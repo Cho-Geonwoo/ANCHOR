@@ -1,0 +1,268 @@
+# Linux x86_64 / Python 3.10 dependency lock.
+# Regenerate: uv pip compile requirements-benchmarks.txt --python-version 3.10 --python-platform x86_64-unknown-linux-gnu --output-file requirements-lock-linux.txt
+absl-py==2.1.0
+    # via
+    #   -r requirements.txt
+    #   chex
+    #   distrax
+    #   dm-control
+    #   dm-env
+    #   dm-tree
+    #   labmaze
+    #   ml-collections
+    #   mujoco
+    #   optax
+    #   orbax-checkpoint
+    #   tensorflow-probability
+attrs==26.1.0
+    # via dm-tree
+beautifulsoup4==4.15.0
+    # via gdown
+certifi==2026.10.23
+    # via requests
+cffi==2.1.1
+    # via mujoco-py
+charset-normalizer==3.5.2
+    # via requests
+chex==0.1.86
+    # via
+    #   -r requirements.txt
+    #   distrax
+    #   optax
+click==8.1.7
+    # via -r requirements-benchmarks.txt
+cloudpickle==3.1.2
+    # via
+    #   gym
+    #   tensorflow-probability
+contextlib2==21.6.0
+    # via ml-collections
+contourpy==1.3.2
+    # via matplotlib
+cycler==0.12.1
+    # via matplotlib
+cython==0.29.37
+    # via
+    #   -r requirements-benchmarks.txt
+    #   mujoco-py
+decorator==5.3.1
+    # via tensorflow-probability
+distrax==0.1.5
+    # via -r requirements.txt
+dm-control==1.0.20
+    # via -r requirements-benchmarks.txt
+dm-env==1.6
+    # via dm-control
+dm-tree==0.1.10
+    # via
+    #   dm-control
+    #   dm-env
+    #   tensorflow-probability
+einops==0.7.0
+    # via -r requirements.txt
+etils==1.13.0
+    # via
+    #   mujoco
+    #   orbax-checkpoint
+fasteners==0.20
+    # via mujoco-py
+filelock==4.1.0
+    # via gdown
+flax==0.8.2
+    # via -r requirements.txt
+fonttools==4.65.0
+    # via matplotlib
+fsspec==2026.9.0
+    # via etils
+gast==0.7.0
+    # via tensorflow-probability
+gdown==5.2.0
+    # via -r requirements-benchmarks.txt
+glfw==2.11.0
+    # via
+    #   dm-control
+    #   mujoco
+    #   mujoco-py
+gym==0.23.1
+    # via -r requirements.txt
+gym-notices==0.1.0
+    # via gym
+h5py==3.11.0
+    # via -r requirements-benchmarks.txt
+idna==3.20
+    # via requests
+imageio==2.38.0
+    # via mujoco-py
+importlib-resources==7.1.0
+    # via etils
+jax==0.4.25
+    # via
+    #   -r requirements.txt
+    #   chex
+    #   distrax
+    #   flax
+    #   optax
+    #   orbax-checkpoint
+jaxlib==0.4.25
+    # via
+    #   -r requirements.txt
+    #   chex
+    #   distrax
+    #   optax
+    #   orbax-checkpoint
+kiwisolver==1.5.1
+    # via matplotlib
+labmaze==1.0.6
+    # via dm-control
+lxml==6.1.3
+    # via dm-control
+markdown-it-py==4.2.0
+    # via rich
+matplotlib==3.8.4
+    # via -r requirements.txt
+mdurl==0.1.2
+    # via markdown-it-py
+ml-collections==0.1.1
+    # via -r requirements.txt
+ml-dtypes==0.5.4
+    # via
+    #   jax
+    #   jaxlib
+    #   tensorstore
+msgpack==1.2.4
+    # via
+    #   flax
+    #   orbax-checkpoint
+mujoco==3.1.6
+    # via
+    #   -r requirements-benchmarks.txt
+    #   dm-control
+mujoco-py==2.1.2.14
+    # via -r requirements-benchmarks.txt
+nest-asyncio==1.6.0
+    # via orbax-checkpoint
+numpy==1.26.4
+    # via
+    #   -r requirements.txt
+    #   chex
+    #   contourpy
+    #   distrax
+    #   dm-control
+    #   dm-env
+    #   dm-tree
+    #   flax
+    #   gym
+    #   h5py
+    #   imageio
+    #   jax
+    #   jaxlib
+    #   labmaze
+    #   matplotlib
+    #   ml-dtypes
+    #   mujoco
+    #   mujoco-py
+    #   optax
+    #   orbax-checkpoint
+    #   scipy
+    #   tensorflow-probability
+    #   tensorstore
+opt-einsum==3.4.0
+    # via jax
+optax==0.1.9
+    # via
+    #   -r requirements.txt
+    #   flax
+orbax-checkpoint==0.3.5
+    # via
+    #   -r requirements.txt
+    #   flax
+overrides==7.7.0
+    # via -r requirements.txt
+packaging==26.3
+    # via matplotlib
+patchelf==0.17.2.1
+    # via -r requirements-benchmarks.txt
+pillow==12.3.0
+    # via
+    #   imageio
+    #   matplotlib
+protobuf==7.36.2
+    # via
+    #   dm-control
+    #   orbax-checkpoint
+pycparser==3.11
+    # via cffi
+pygments==2.21.0
+    # via rich
+pyopengl==3.1.10
+    # via
+    #   dm-control
+    #   mujoco
+pyparsing==3.3.3
+    # via
+    #   dm-control
+    #   matplotlib
+pysocks==1.7.1
+    # via requests
+python-dateutil==3.0.0
+    # via matplotlib
+pyyaml==6.0.3
+    # via
+    #   flax
+    #   ml-collections
+    #   orbax-checkpoint
+requests==2.34.2
+    # via
+    #   dm-control
+    #   gdown
+rich==15.0.0
+    # via flax
+scipy==1.11.2
+    # via
+    #   -r requirements.txt
+    #   dm-control
+    #   jax
+    #   jaxlib
+setuptools==69.5.1
+    # via
+    #   -r requirements.txt
+    #   dm-control
+    #   labmaze
+six==1.17.0
+    # via
+    #   ml-collections
+    #   python-dateutil
+    #   tensorflow-probability
+soupsieve==2.10
+    # via beautifulsoup4
+tensorflow-probability==0.23.0
+    # via
+    #   -r requirements.txt
+    #   distrax
+tensorstore==0.1.78
+    # via
+    #   flax
+    #   orbax-checkpoint
+termcolor==2.4.0
+    # via -r requirements-benchmarks.txt
+toolz==1.2.0
+    # via chex
+tqdm==4.70.1
+    # via
+    #   dm-control
+    #   gdown
+typing-extensions==4.16.0
+    # via
+    #   beautifulsoup4
+    #   chex
+    #   etils
+    #   flax
+    #   orbax-checkpoint
+tzdata==2026.6
+    # via python-dateutil
+urllib3==2.8.0
+    # via requests
+wrapt==2.5.2
+    # via dm-tree
+zipp==4.1.2
+    # via etils

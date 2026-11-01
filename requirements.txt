@@ -1,0 +1,18 @@
+# Python 3.10; manuscript JAX version with a compatible Flax stack.
+setuptools==69.5.1
+jax==0.4.25
+jaxlib==0.4.25
+numpy==1.26.4
+scipy==1.11.2
+flax==0.8.2
+optax==0.1.9
+chex==0.1.86
+distrax==0.1.5
+tensorflow-probability==0.23.0
+orbax-checkpoint==0.3.5
+ml-collections==0.1.1
+absl-py==2.1.0
+gym==0.23.1
+einops==0.7.0
+overrides==7.7.0
+matplotlib==3.8.4

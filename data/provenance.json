@@ -1,0 +1,9 @@
+{
+  "source_archive": "Neurips_2026__O2O_Reinforcement_Learning_.zip",
+  "source_file": "writings/appendix/Numerical_Results.tex",
+  "source_file_sha256": "5e0f4424d0845ac6d327878224a880bf5edef837dddc9a20f7abd47c5442cc5c",
+  "table_label": "tab:final_perform",
+  "data_kind": "reported_aggregate",
+  "raw_seed_data_available": false,
+  "processing": "Remove LaTeX emphasis and parse the six task rows in manuscript column order; preserve displayed means and SEs."
+}

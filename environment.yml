@@ -1,0 +1,8 @@
+name: anchor
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.18
+  - pip=24.3.1
+  - setuptools=69.5.1
+  - wheel=0.43.0
