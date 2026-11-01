@@ -1,5 +1,7 @@
 # ANCHOR: KL-Anchored Adaptation for Stable Offline-to-Online RL
 
+**📌 CoRL Workshop on Continually Self-Improving Robots**
+
 ## Installation
 
 The benchmark setup targets **Linux x86_64, Python 3.10, and an NVIDIA GPU**.
